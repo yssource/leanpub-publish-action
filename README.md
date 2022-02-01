@@ -10,7 +10,9 @@ Your book SLUG. It's the part of the URL for your book after https://leanpub.com
 
 ## Example usage
 
+```yaml
 uses: robert-matusewicz/leanpub-publish-action@v1.0.0
 with:
     api_key: <YOUR API KEY>
     book_slug: <YOUR BOOK SLUG>
+```
