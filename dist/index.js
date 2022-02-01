@@ -19,10 +19,10 @@ const instance = axios.create(instanceConfig)
 
 const payload = `api_key=${api_key}`
 
-core.debug(`Leanpub preview URL base: ${instanceConfig.baseURL}`)
+core.debug(`Leanpub publish URL base: ${instanceConfig.baseURL}`)
 core.debug(`payload: ${payload}`)
 
-instance.post('/preview.json', payload)
+instance.post('/publish.json', payload)
 
 
 /***/ }),

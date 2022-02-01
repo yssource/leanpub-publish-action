@@ -1,5 +1,5 @@
 name: "Leanpub Publish Action"
-description: "A GitHub Action that publish your book LeanPub"
+description: "A GitHub Action that publishes your book LeanPub"
 author: "Robert Matusewicz <robert.matusewicz@protonmail.com>"
 inputs:
   api_key:
